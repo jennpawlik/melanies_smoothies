@@ -25,6 +25,7 @@ pd_df = my_dataframe.to_pandas()
 # st.dataframe(pd_df)
 # st.stop()
 
+# Show the ingrddients list
 ingredients_list = st.multiselect(
     'Choose up to 5 ingredients:'
     , my_dataframe
